@@ -43,4 +43,3 @@ class SetupCiclovias {
 //    fun init1(): List<Ciclovia> {
 //        return nombres.zip(comunas)as List<Ciclovia>
     } //hace lo mismo que el método de arriba
-}
