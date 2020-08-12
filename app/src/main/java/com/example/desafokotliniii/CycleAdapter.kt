@@ -28,7 +28,8 @@ class CycleAdapter (private val listadoCiclos: MutableList<Ciclovia>):
         return listadoCiclos.size
     }
 
-    override fun onBindViewHolder(holder: CycleViewHolder, position: Int) {
-        TODO("Not yet implemented")
+    override fun onBindViewHolder(holder: CycleViewHolder, position: Int) { //holder recipiente posición
+        holder.comunaTv.text= listadoCiclos[position].comuna
+        holder.cycloTV.text= listadoCiclos[position].nombre
     }
 }

@@ -15,10 +15,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/las condes boton" />
+        app:layout_constraintTop_toBottomOf="@id/lascondesboton" />
 
     <Button
-        android:id="@+id/las condes boton"
+        android:id="@+id/lascondesboton"
         android:layout_width="159dp"
         android:layout_height="62dp"
         android:layout_marginStart="28dp"
@@ -34,7 +34,7 @@
         android:layout_marginTop="56dp"
         android:text="@string/all_comunas"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/las condes boton"
+        app:layout_constraintStart_toEndOf="@id/lascondesboton"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
