@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DesafíoKotlinIII</string>
+
+    <string name="filtro">DesafíoKotlinIII</string>
+
+    <string name="all_comunas">all comunas</string>
 </resources>
