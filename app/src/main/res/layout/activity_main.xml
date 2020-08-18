@@ -19,20 +19,20 @@
 
     <Button
         android:id="@+id/lascondesboton"
-        android:layout_width="159dp"
-        android:layout_height="62dp"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="52dp"
-        android:text="filtro"
+        android:text="filtrar las condes"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/all ciclo boton"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
+        android:id="@+id/allcicloboton"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
         android:layout_marginTop="56dp"
-        android:text="@string/all_comunas"
+        android:text="lista sin filtrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/lascondesboton"
         app:layout_constraintTop_toTopOf="parent" />

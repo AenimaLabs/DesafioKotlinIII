@@ -1,4 +1,4 @@
-package com.example.desafokotliniii
+package com.example.desafokotliniii.model
 
 import java.util.*
 
@@ -34,7 +34,11 @@ class SetupCiclovias {
     fun init(): List<Ciclovia> {
         val lista: MutableList<Ciclovia> = ArrayList()
         for (i in 0..9) {
-            val ciclovia = Ciclovia(nombres[i], comunas[i])
+            val ciclovia =
+                Ciclovia(
+                    nombres[i],
+                    comunas[i]
+                )
             lista.add(ciclovia)
         }
         return lista

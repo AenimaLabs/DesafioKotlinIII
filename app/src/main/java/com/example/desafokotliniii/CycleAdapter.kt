@@ -1,11 +1,11 @@
 package com.example.desafokotliniii
 
 import android.view.LayoutInflater
-import android.view.TextureView
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.desafokotliniii.model.Ciclovia
 
 class CycleAdapter (private val listadoCiclos: MutableList<Ciclovia>):
                     RecyclerView.Adapter<CycleAdapter.CycleViewHolder>(){

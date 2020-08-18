@@ -3,12 +3,12 @@ package com.example.desafokotliniii
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.widget.Button
-import android.widget.FrameLayout
-import android.widget.LinearLayout
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.desafokotliniii.model.Ciclovia
+import com.example.desafokotliniii.model.SetupCiclovias
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,11 +23,12 @@ class MainActivity : AppCompatActivity() {
         val filtrarCondes: Button = findViewById(R.id.lascondesboton)
         val nofiltrar : Button = findViewById(R.id.)
 
-        filtrarCondes.setOnClickListener()
-
+//        filtrarCondes.setOnClickListener()
+        filtrarCondes.setOnClickListener(View.OnClickListener { view : View ->Unit})
 
         layoutManager = LinearLayoutManager(this)
-        cycloadapter = CycleAdapter(SetupCiclovias().init() as MutableList<Ciclovia>)
+        cycloadapter = CycleAdapter(
+            SetupCiclovias().init() as MutableList<Ciclovia>)
         recyclerView = findViewById(R.id.recycler)
         recyclerView.adapter = cycloadapter
         recyclerView.layoutManager= layoutManager

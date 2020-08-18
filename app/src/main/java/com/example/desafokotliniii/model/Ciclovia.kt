@@ -1,4 +1,4 @@
-package com.example.desafokotliniii
+package com.example.desafokotliniii.model
 
 /**
  * Created by ciromine on 8/26/19.
